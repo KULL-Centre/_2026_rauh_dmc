@@ -2,7 +2,7 @@
 
 This repository contains code and data for:
 
-Rauh A.S., Tesei, G. & Lindorff-Larsen, K. (2026) _On the Use of Double Mutant Cycles to Probe the Molecular Interactions in Biomolecular Condensates._ <!-- [bioRxiv](https://doi.org/10.1101/2025.03.01.640997) -->
+Rauh A.S., Tesei, G. & Lindorff-Larsen, K. (2026) _On the Use of Double Mutant Cycles to Probe the Molecular Interactions in Biomolecular Condensates._ ([bioRxiv](https://doi.org/10.64898/2026.02.03.703500))
 
 The simulation data can be retrieved from the Electronic Research Data Archive at UCPH (ERDA): <!-- [here](https://sid.erda.dk/cgi-sid/ls.py?share_id=B2pqRhqcsE) -->
 
@@ -12,8 +12,6 @@ CALVADOS simulations can be run either with the code provided here or using the 
 ## File structure
 <!--
 - **data**: Pandas DataFrames with processed data from the simulations.
-- **single_chain_PEG**: Scripts used in parameter scan for reproduction of single-chain properties of linear PEG chains with different molecular weight.
-- **protein_crowding**: Scripts used in for tuning $\lambda_{PEG}$ in a comparison with PEG-induced compaction of IDPs.
-- **ps_crowding**: Scripts used to run PEG-crowding slab simulations for phase separation systems.
 - **figures.ipynb**: Jupyter Notebook with code to reproduce the figures in the manuscript.
+- **source**: Scripts used to run and analyse the slab geometry simulations for phase separation systems.
 -->
